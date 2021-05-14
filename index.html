@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Главная</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximem-scale=1.0, user-scalable=0"/>
+		<link rel="stylesheet" href="css/style.css" type="text/css"/>
+
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="workplace">
+				<div class="workplace__column">
+					<div class="header">
+						Магазин продуктов
+					</div>
+					<div class="shop">
+						<div class="item">
+							<article class = "product" data-id ="1">
+							<img class = "image" src="img/bread.webp" alt="" width = 118px height=100px>
+							<div class = "name">Хлеб</div>
+							<div class = "price">42 Р</div>
+							<button type = "button" class = " btn">В корзину</button>
+							</article>
+						</div>
+						<div class="item">
+							<article class = "product" data-id ="2">
+							<img class = "image" src="img/cheese.png" alt="" width = 118px height=100px>
+							<div class = "name">Сыр</div>
+							<div class = "price">216 Р</div>
+							<button type = "button" class = " btn">В корзину</button>
+							</article>
+						</div>
+						<div class="item">
+							<article class = "product" data-id ="3">
+							<img class = "image" src="img/meat.jpg" alt="" width = 118px height=100px>
+							<div class = "name">Колбаса</div>
+							<div class = "price">239 Р</div>
+							<button type = "button" class = "btn">В корзину</button>
+							</article>
+						</div>
+						<div class="item">
+							<article class = "product" data-id ="4">
+							<img class = "image" src="img/milk.jpg" alt="" width = 118px height=100px>
+							<div class = "name">Молоко</div>
+							<div class = "price">89 Р</div>
+							<button type = "button" class = "btn">В корзину</button>
+							</article>
+						</div>
+						<div class="item">
+							<article class = "product" data-id ="5">
+								<img class = "image" src="img/tomato.jpg" alt="" width = 118px height=100px>
+								<div class = "name">Помидоры</div>
+								<div class = "price">86 Р</div>
+								<button type="button" class="btn">В корзину</button>
+							</article>
+						</div>
+					</div>
+				</div>
+				<div class="workplace__column">
+					<div class="header">
+						Корзина
+					</div>
+					<div class="trash" data-simplebar>
+						<button type = "button	" class="allRemove"></button>
+						<div class = "finalPrice"></div>
+						<div class = "cart"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src = "js/script.js" ></script>
+	</body>
+</html>

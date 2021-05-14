@@ -1,0 +1,27 @@
+{
+	"0": {
+		"name": "Молоко",
+		"price": "89",
+		"image": "img/milk.webp"
+	},
+	"1": {
+		"name": "Хлеб",
+		"price": "42",
+		"image": "img/bread.webp"
+	},
+	"2": {
+		"name": "Помидоры",
+		"price": "86",
+		"image": "img/tomato.webp"
+	},
+	"3": {
+		"name": "Сыр",
+		"price": "216",
+		"image": "img/cheese.webp"
+	},
+	"4": {
+		"name": "Колбаса",
+		"price": "239",
+		"image": "img/meat.webp"
+	},
+}
